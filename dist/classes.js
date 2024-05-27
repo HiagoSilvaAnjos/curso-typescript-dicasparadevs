@@ -18,6 +18,9 @@ class PersonRefact {
         this.name = name;
         this.age = age;
     }
+    sayMyage() {
+        return `My age private is ${this.age}`;
+    }
     sayMyName() {
         return `My name is ${this.name}`;
     }
